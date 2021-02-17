@@ -1,0 +1,176 @@
+@keyframes change{
+   0%   {color:red; left: 0px; top:0px;}
+  25%  {color:yellow; left: -400px; top:0px; }
+  50%  {color:blue;  left: 0px; top:0px;}
+  75%  {color:green; left:400px; top:0px;}
+  100% {color:red; left: 0px; top:0px;}
+}
+h1{
+       /*transform: scaleX(2);
+       transform: skewX(20deg);*/
+       position: relative;
+       text-align: center;
+       display: block;
+       animation-name: change;
+       animation-duration: 4s;
+       /*animation-delay: 2s;*/
+       /*animation-iteration-count: infinite;*/
+}
+@keyframes changecolor{
+     from{ background-color: lightgreen; }
+     to{ background-color: lightpink; }
+} 
+body{
+     /*animation-name: changecolor;
+     animation-duration: 4s;
+     animation-iteration-count: 4;*/
+     background-color: lightgreen;
+     background-image: url("youtube.png");
+     background-repeat: no-repeat;
+     background-position: right top;
+     background-attachment: fixed;
+     background-size: 100px 100px;
+	}
+@keyframes smile{
+    0%{transform: rotate(90deg);}
+    35%{transform: rotate(90deg);}
+    70%{transform: rotate(90deg);}
+    100%{transform: rotate(90deg);}
+}
+img{
+     border-radius: 50%;
+}
+table ,td, th{
+	border:1px solid black;
+	border-collapse: collapse;
+	}
+th{
+     background-color: skyblue;
+}
+
+a{
+   color: black;
+	}
+
+a:hover {
+     background-color: blue;
+     }
+
+.nav{
+     border: 1px solid black;
+     background-color: skyblue;
+     }
+.dropdown{
+   display: inline-block;
+   
+}
+.content{
+  display: none;
+  position: absolute;
+  background-color: #ff9999;
+  z-index: 1;
+}
+.dropdown:hover .content {
+  display: block;
+}
+span{
+     font-size: 160%;
+     padding:20px;
+}
+.jjj{
+     color: red;
+}
+.kkk{
+     color: blue;
+}
+caption{
+     background-color: skyblue;
+     margin-bottom: 10px;
+     border: 1px solid black;
+     padding: 5px;
+}
+.hov:hover{
+     background-color: gray;
+}
+#con{
+     float: left;
+}
+#con2{
+     float: center;
+     padding-left: 50%;
+}
+#foot{
+     border : 1px solid black;
+     font-size: 20px;
+     text-align: center;
+     background-color: skyblue;
+     padding : 19px;
+     padding-top: 19px;
+     margin-top: 10px;
+     border-radius: 10px;
+}
+#fig{
+     float: left;
+}
+iframe{
+     float : right;
+}
+#ggg{
+     border : 1px solid black;
+     padding: 10px;
+     background-color: skyblue;
+     border-radius: 10px;
+}
+.ff{
+     margin-top: 10px;
+}
+.aaryan{
+     border-left: 10px solid red;
+     background-color: lightgrey;
+     border-bottom: 1px dotted blue;
+     padding: 20px;
+     padding-left: 70px;
+     text-shadow: 2px 2px 5px red;
+     /*If the font name is more than one word, it must be in quotation marks, like: "Times New Roman".*/
+     font-family: "Times New Roman", Times, serif;
+     font-style: italic;
+     height: 120px;
+     overflow: auto;
+     width: 100px;
+     transition: width 2s ,height 2s, transform 2s;
+}
+.aaryan:hover{
+     transform: rotate(360deg);
+     width: 600px;
+     height : 300px;
+}
+/* for recommend.html */
+.bor{
+     border : 2px solid black;
+     border-bottom: none;
+     padding: 10px;
+     padding-left: 30px; 
+}
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+
+}
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+ul li {
+  background: #cce5ff;
+  margin: 5px;
+}
+tr:hover {background-color: #73AD21;}
+/*tr:nth-child(even) {background-color: #cce5ff;}*/
+ul li:hover{
+     border: 1px solid black;
+}
